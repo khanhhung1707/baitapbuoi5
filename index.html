@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bài tập buổi 5</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="quanLyTuyenSinh">
+      <h2 class="container">Bài 1</h2>
+      <div class="container py-5">
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            id="diemChuan"
+            class="form-control"
+            placeholder="Điểm chuẩn"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            id="khuVuc"
+            class="form-control"
+            placeholder="Nhập khu vực"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            id="doiTuong"
+            class="form-control"
+            placeholder="Nhập đối tượng"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            id="mon1"
+            class="form-control"
+            placeholder="Điểm môn thứ 1"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            id="mon2"
+            class="form-control"
+            placeholder="Điểm môn thứ 2"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            id="mon3"
+            class="form-control"
+            placeholder="Điểm môn thứ 3"
+          />
+        </div>
+      </div>
+      <button
+        class="btn btn-success container"
+        style="width: 77px"
+        onclick="handleDiem()"
+      >
+        Submit
+      </button>
+      <div id="bai1__result"></div>
+    </div>
+
+    <div class="tinhTienDien">
+      <h2 class="container">Bài 2</h2>
+      <div class="container py-5">
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            id="nameTienDien"
+            class="form-control"
+            placeholder="Nhập họ tên"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            id="soKg"
+            class="form-control"
+            placeholder="Nhập số Kw"
+          />
+        </div>
+        <button
+          class="btn btn-success"
+          style="width: 77px"
+          onclick="handleTienDien()"
+        >
+          Submit
+        </button>
+      </div>
+      <div id="bai2__result" class="bai2 container"></div>
+    </div>
+
+    <div class="tinhTienThue">
+      <h2 class="container">Bài 3</h2>
+      <p class="container">em không hiểu số người phụ thuộc nên em bỏ qua ạ</p>
+      <div class="container py-5">
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            id="nameTienThue"
+            class="form-control"
+            placeholder="Nhập họ tên"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            id="tongThuNhap"
+            class="form-control"
+            placeholder="Tổng thu nhập năm"
+          />
+        </div>
+        <button
+          class="btn btn-success"
+          style="width: 77px"
+          onclick="handleTienThue()"
+        >
+          Submit
+        </button>
+      </div>
+      <div id="bai3__result" class="bai3 container"></div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
